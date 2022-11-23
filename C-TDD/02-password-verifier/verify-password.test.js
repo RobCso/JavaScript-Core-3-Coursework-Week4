@@ -1,10 +1,10 @@
-let verify = require("./verify-password")
+let verify = require("./verify-password");
 
-test("Verify Password", function() {
-    let password = "Password123";
-    let expected = "Password Accepted";
+test("Verify Password", function () {
+  let password = "Password123";
+  let expected = "Password Accepted";
 
-    let output = verify(password);
+  let output = verify(password);
 
-    expect(output).toEqual(expected);
-})
+  expect(output).toEqual(expected);
+});

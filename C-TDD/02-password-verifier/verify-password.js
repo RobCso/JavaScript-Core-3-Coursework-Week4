@@ -1,5 +1,4 @@
 
-
 function verify(p) {
     function hasNumbers(t) {
       let regex = /\d/g;
@@ -23,8 +22,8 @@ function verify(p) {
 }
 
 //console.log(hasNumbers("absd"));
-console.log(verify("0"))
-console.log(verify("Aas"));
-console.log(verify("aassddfffgg"));
-console.log(verify("Aassddffgg"));
-console.log(verify("Aassddffgg1"));
+// console.log(verify("0"))
+// console.log(verify("Aas"));
+// console.log(verify("aassddfffgg"));
+// console.log(verify("Aassddffgg"));
+// console.log(verify("Aassddffgg1"));
